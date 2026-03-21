@@ -157,7 +157,7 @@ BEGIN
     name = pn_name,
     email = pn_email,
     bio = pn_bio,
-    password_hash = password_hash,
+    password_hash = pn_password_hash,
     updated_at = NOW()
   WHERE idusers = pn_id;
 
